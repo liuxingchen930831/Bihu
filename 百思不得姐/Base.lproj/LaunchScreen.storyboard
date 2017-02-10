@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11760" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11755"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FAx-QD-YQs"/>
+                        <viewControllerLayoutGuide type="bottom" id="I7k-EK-aPl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="biq-4p-jzm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="让  装  哔  填  满  生  活" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="49S-Ev-9Xv">
+                                <rect key="frame" x="106" y="628" width="298" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="6nC-2L-A9v"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon" translatesAutoresizingMaskIntoConstraints="NO" id="AGQ-8N-ZPe">
+                                <rect key="frame" x="20" y="610" width="76" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="76" id="eo2-o5-QxL"/>
+                                    <constraint firstAttribute="height" constant="76" id="kcR-OX-CxX"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uOW-8Q-zht">
+                                <rect key="frame" x="127" y="650" width="60" height="3"/>
+                                <color key="backgroundColor" red="1" green="0.057970289709999998" blue="0.080193275460000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="3" id="asr-gN-emX"/>
+                                    <constraint firstAttribute="width" constant="60" id="wl3-73-6rZ"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="精  彩" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DgB-AJ-NkI">
+                                <rect key="frame" x="135" y="671" width="50" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="7tp-IZ-8ta"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="DgB-AJ-NkI" firstAttribute="top" secondItem="uOW-8Q-zht" secondAttribute="bottom" constant="18" id="3Zq-JE-dpi"/>
+                            <constraint firstItem="AGQ-8N-ZPe" firstAttribute="leading" secondItem="biq-4p-jzm" secondAttribute="leading" constant="20" id="8I7-eX-7VG"/>
+                            <constraint firstItem="I7k-EK-aPl" firstAttribute="top" secondItem="DgB-AJ-NkI" secondAttribute="bottom" constant="44" id="Bz3-lp-a0K"/>
+                            <constraint firstItem="I7k-EK-aPl" firstAttribute="top" secondItem="49S-Ev-9Xv" secondAttribute="bottom" constant="63" id="Vif-XC-UIi"/>
+                            <constraint firstItem="I7k-EK-aPl" firstAttribute="top" secondItem="AGQ-8N-ZPe" secondAttribute="bottom" constant="50" id="WOX-0t-fl2"/>
+                            <constraint firstItem="uOW-8Q-zht" firstAttribute="leading" secondItem="AGQ-8N-ZPe" secondAttribute="trailing" constant="31" id="ZL3-ej-EXj"/>
+                            <constraint firstAttribute="trailing" secondItem="49S-Ev-9Xv" secondAttribute="trailing" constant="10" id="fGi-cV-bKu"/>
+                            <constraint firstItem="DgB-AJ-NkI" firstAttribute="leading" secondItem="AGQ-8N-ZPe" secondAttribute="trailing" constant="39" id="j37-Sc-a9K"/>
+                            <constraint firstItem="49S-Ev-9Xv" firstAttribute="leading" secondItem="AGQ-8N-ZPe" secondAttribute="trailing" constant="10" id="sbf-EU-Jbc"/>
+                            <constraint firstItem="DgB-AJ-NkI" firstAttribute="centerX" secondItem="uOW-8Q-zht" secondAttribute="centerX" constant="3" id="v6f-93-W0h"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Icon" width="16" height="16"/>
+    </resources>
+</document>

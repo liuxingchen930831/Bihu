@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11760" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11755"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XCADViewController">
+            <connections>
+                <outlet property="adView" destination="osL-Ba-fES" id="agC-UV-hlO"/>
+                <outlet property="contentView" destination="JUD-CG-MwL" id="LHs-X5-yec"/>
+                <outlet property="jumpAD" destination="ABb-P4-wmH" id="0zt-hP-Kll"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Yellow_3D_arrow_left" translatesAutoresizingMaskIntoConstraints="NO" id="osL-Ba-fES">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JUD-CG-MwL" userLabel="广告占位图">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ABb-P4-wmH">
+                    <rect key="frame" x="295" y="50" width="60" height="30"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="3LP-fr-clv"/>
+                        <constraint firstAttribute="width" constant="60" id="ceO-Rb-Pnq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="跳过(3)">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="jumAdvertising:" destination="-1" eventType="touchUpInside" id="aWj-Rr-tMZ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="ABb-P4-wmH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="EO4-v4-7iJ"/>
+                <constraint firstItem="osL-Ba-fES" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="JlI-ND-kAM"/>
+                <constraint firstItem="osL-Ba-fES" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="L6B-cf-Y2F"/>
+                <constraint firstAttribute="trailing" secondItem="ABb-P4-wmH" secondAttribute="trailing" constant="20" id="NKU-jc-Ms4"/>
+                <constraint firstAttribute="trailing" secondItem="JUD-CG-MwL" secondAttribute="trailing" id="Ppe-bs-ThC"/>
+                <constraint firstAttribute="trailing" secondItem="osL-Ba-fES" secondAttribute="trailing" id="ReU-NT-yMI"/>
+                <constraint firstAttribute="bottom" secondItem="osL-Ba-fES" secondAttribute="bottom" id="Zpv-6a-AC8"/>
+                <constraint firstItem="JUD-CG-MwL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="lsY-34-nGz"/>
+                <constraint firstItem="JUD-CG-MwL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="oAU-gi-0aK"/>
+                <constraint firstAttribute="bottom" secondItem="JUD-CG-MwL" secondAttribute="bottom" id="rMR-F6-cgA"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Yellow_3D_arrow_left" width="30" height="29"/>
+    </resources>
+</document>

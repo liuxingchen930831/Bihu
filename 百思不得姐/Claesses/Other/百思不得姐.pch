@@ -1,0 +1,35 @@
+//
+//  百思不得姐.pch
+//  百思不得姐
+//
+//  Created by liuxingchen on 17/1/12.
+//  Copyright © 2017年 liuxingchen. All rights reserved.
+//
+#import "UIImage+Image.h"
+#import "UIView+Frame.h"
+#import "UIBarButtonItem+GlobalStyle.h"
+#import "SVProgressHUD.h"
+#import "AFNetworking.h"
+#import "MJExtension.h"
+#import "UITextField+Placeholder.h"
+#import "UIImageView+WebCache.h"
+#import "XCConst.h"
+#import "UIImageView+Download.h"
+#import "NSDate+Extension.h"
+
+#define XCScreenW [UIScreen mainScreen].bounds.size.width
+#define XCScreenH [UIScreen mainScreen].bounds.size.height
+#define iphone6P (XCScreenH == 736)
+#define iphone6 (XCScreenH == 667)
+#define iphone5 (XCScreenH == 568)
+#define iphone4 (XCScreenH == 480)
+
+#define XCRandomColor XMGColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+#define XCFun XCLog(@"%s",__func__);
+#define XCAFNWriteToPlist(filename) [responseObject writeToFile:[NSString stringWithFormat:@"/Users/liuxingchen/Desktop/%@.plist", @#filename] atomically:YES];
+
+#ifdef DEBUG //调试状态
+#define XCLog(...) NSLog(__VA_ARGS__)
+#else       //发布状态
+#define XCLog(...)
+#endif
