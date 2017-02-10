@@ -21,7 +21,7 @@
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VuJ-3F-3fq">
                     <rect key="frame" x="85.5" y="307" width="204" height="54"/>
-                    <string key="text">快快登录吧, 关注百思最in牛人
+                    <string key="text">快快登录吧, 关注哔乎最in牛人
 好友动态让你过吧瘾儿~
 欧耶~~~~!</string>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>

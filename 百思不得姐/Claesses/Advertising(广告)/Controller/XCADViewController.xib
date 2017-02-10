@@ -22,7 +22,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Yellow_3D_arrow_left" translatesAutoresizingMaskIntoConstraints="NO" id="osL-Ba-fES">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_register_background" translatesAutoresizingMaskIntoConstraints="NO" id="osL-Ba-fES">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                 </imageView>
                 <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JUD-CG-MwL" userLabel="广告占位图">
@@ -62,6 +62,6 @@
         </view>
     </objects>
     <resources>
-        <image name="Yellow_3D_arrow_left" width="30" height="29"/>
+        <image name="login_register_background" width="320" height="568"/>
     </resources>
 </document>

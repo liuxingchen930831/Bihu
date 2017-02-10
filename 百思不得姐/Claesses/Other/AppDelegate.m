@@ -24,10 +24,10 @@
 }
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-//    XCADViewController *adVC =[[XCADViewController alloc]init];
-//    self.window.rootViewController = adVC;
-    XCTabbarController *tabbarVC = [[XCTabbarController alloc]init];
-    self.window.rootViewController = tabbarVC;
+    XCADViewController *adVC =[[XCADViewController alloc]init];
+    self.window.rootViewController = adVC;
+//    XCTabbarController *tabbarVC = [[XCTabbarController alloc]init];
+//    self.window.rootViewController = tabbarVC;
     [self.window makeKeyAndVisible];
     //开始监控网络状况
     [[AFNetworkReachabilityManager sharedManager] startMonitoring];
